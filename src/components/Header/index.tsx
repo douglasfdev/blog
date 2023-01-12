@@ -19,10 +19,6 @@ export default function Header() {
             <p>Conteúdos</p>
           </ActiveLink>
 
-          <ActiveLink href="/conteudos" activeClassName={styles.active}>
-            <p>Conteúdos</p>
-          </ActiveLink>
-
           <ActiveLink href="/sobre" activeClassName={styles.active}>
             <p>Quem Somos?</p>
           </ActiveLink>
