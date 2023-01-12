@@ -11,13 +11,13 @@ export default function ActiveLink({
   const { asPath } = useRouter();
 
   const className = asPath === props.href ? activeClassName : '';
-  //Se a rota/pagina que estamos acessando for igual ao link que ele clicou entao ativamos o classname
+  const clonedElement = cloneElement(children, {
+    className,
+  });
 
   return (
     <Link {...props}>
-      {cloneElement(children, {
-        className,
-      })}
+      {clonedElement}
     </Link>
   );
 }
