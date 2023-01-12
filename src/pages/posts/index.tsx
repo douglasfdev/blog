@@ -14,14 +14,13 @@ export default function Posts(){
       <main className={styles.container}>
         <div className={styles.posts}>
           <Link href="/">
-            <p>
               <Image
                 src={thumbImg}
                 alt="Post titulo 1"
                 width={720}
                 height={410}
                 quality={100}
-              />
+                />
               <strong>Criando meu primeiro aplicativo</strong>
               <time>
                 {new Date().toLocaleDateString()} | {new Date().toLocaleTimeString()}
@@ -30,27 +29,24 @@ export default function Posts(){
                 Hoje vamos criar o controle de mostrar a senha do input, uma opção para
                 nossos fomrulários de cadastro e login.
               </p>
-            </p>
           </Link>
 
           <div className={styles.buttonNavigate}>
             <div>
-
               <button>
-                <FiChevronsLeft size={25} color={"#FFF"} />
+                <FiChevronsLeft size={25} color={'#FFF'} />
               </button>
               <button>
-                <FiChevronLeft size={25} color={"#FFF"} />
+                <FiChevronLeft size={25} color={'#FFF'} />
               </button>
             </div>
             <div>
               <button>
-                <FiChevronsRight size={25} color={"#FFF"} />
+                <FiChevronsRight size={25} color={'#FFF'} />
               </button>
               <button>
-                <FiChevronRight size={25} color={"#FFF"} />
+                <FiChevronRight size={25} color={'#FFF'} />
               </button>
-
             </div>
           </div>
         </div>
