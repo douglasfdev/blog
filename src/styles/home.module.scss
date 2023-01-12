@@ -68,17 +68,24 @@
   }
 
   h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 2.2rem;
     line-height: 4.5rem;
     font-weight: 900;
-    margin-top: 2.2rem;
+    margin: 2.2rem 1rem;
     color: var(--white);
   }
 
   span{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
     font-size: 1rem;
     line-height: 2.25rem;
     color: var(--white);
+    margin: 2.2rem 1rem;
   }
 }
 
@@ -119,5 +126,74 @@
     border-radius: 6px;
     color: var(--white);
     font-weight: 600;
+  }
+}
+
+@media (max-width: 1111px) {
+  .container{
+    .containerHeader{
+      padding: 0 2rem;
+
+      button{
+        display: block;
+      }
+    }
+
+    img{
+      max-width: 600px;
+
+    }
+
+    div h1{
+      font-size: 3rem;
+    }
+
+    div h2{
+      font-size: 2.3rem;
+
+      span{
+        font-size: 2.3rem;
+      }
+    }
+
+    .sectionContent, .nextLevelContent{
+      padding: 0 2rem;
+    }
+  }
+}
+
+@media (max-width: 827px){
+  .container{
+    .containerHeader{
+      flex-direction: column;
+
+      button{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    div img{
+      max-width: 500px;
+    }
+
+    div h1{
+      font-size: 3rem;
+    }
+
+    h2{
+      font-size: 1rem;
+    }
+
+    .sectionContent{
+      flex-direction: column;
+
+      img{
+        margin: 2rem 0 0 0;
+        max-width: 400px;
+      }
+    }
   }
 }
