@@ -28,13 +28,13 @@
     color: var(--white);
   }
 
-  span {
+  span{
     font-size: 1rem;
     line-height: 2.25rem;
     color: var(--white);
   }
 
-  button {
+  button{
     background-color: var(--blue-900);
     border: 0;
     padding: 1rem 1.8rem;
@@ -42,5 +42,42 @@
     border-radius: 7px;
     color: var(--white);
     font-weight: 600;
+  }
+}
+
+.divisor{
+  width: 100%;
+  bottom: 0;
+  height: 1px;
+  border-color: var(--gray-200);
+}
+
+.sectionContent{
+  margin: 5.5rem auto;
+  max-width: 1120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  section{
+    max-width: 670px;
+  }
+
+  img{
+    max-width: 550px;
+  }
+
+  h2{
+    font-size: 2.2rem;
+    line-height: 4.5rem;
+    font-weight: 900;
+    margin-top: 2.2rem;
+    color: var(--white);
+  }
+
+  span{
+    font-size: 1rem;
+    line-height: 2.25rem;
+    color: var(--white);
   }
 }
