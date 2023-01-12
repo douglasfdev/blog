@@ -1,0 +1,23 @@
+import Link from "next/link";
+import { ActiveLinkProps } from "../../interfaces/ActiveLinkProps";
+import { useRouter } from "next/router";
+import { cloneElement } from "react";
+
+export default function ActiveLink({
+  children,
+  activeClassName,
+  ...props
+}: ActiveLinkProps): JSX.Element {
+  const { asPath } = useRouter();
+
+  const className = asPath === props.href ? activeClassName : '';
+  //Se a rota/pagina que estamos acessando for igual ao link que ele clicou entao ativamos o classname
+
+  return (
+    <Link {...props}>
+      {cloneElement(children, {
+        className,
+      })}
+    </Link>
+  );
+}
