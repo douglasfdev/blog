@@ -1,0 +1,121 @@
+{
+  "uid": {
+    "__TYPE__": "UIDContent",
+    "value": "win"
+  },
+  "title": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "heading1",
+        "content": {
+          "text": "Studied"
+        }
+      }
+    ]
+  },
+  "sub_title": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "paragraph",
+        "content": {
+          "text": "Dolore id elit adipisicing tempor laborum velit incididunt sit nulla quis irure."
+        }
+      }
+    ]
+  },
+  "link_action": {
+    "__TYPE__": "LinkContent",
+    "value": {
+      "__TYPE__": "ExternalLink",
+      "url": "https://prismic.io"
+    }
+  },
+  "title_mobile": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "heading2",
+        "content": {
+          "text": "Provide"
+        }
+      }
+    ]
+  },
+  "mobile_content": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "paragraph",
+        "content": {
+          "text": "Velit do ipsum ex amet id excepteur sint commodo ipsum et ut voluptate nostrud dolor. Laboris sint veniam nulla velit."
+        }
+      }
+    ]
+  },
+  "mobile_banner": {
+    "__TYPE__": "ImageContent",
+    "origin": {
+      "id": "main",
+      "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468",
+      "width": 4000,
+      "height": 6000
+    },
+    "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468",
+    "width": 4000,
+    "height": 6000,
+    "edit": {
+      "zoom": 1,
+      "crop": {
+        "x": 0,
+        "y": 0
+      },
+      "background": "transparent"
+    },
+    "thumbnails": {}
+  },
+  "title_web": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "heading2",
+        "content": {
+          "text": "Slipped"
+        }
+      }
+    ]
+  },
+  "web_content": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "paragraph",
+        "content": {
+          "text": "Excepteur deserunt ullamco deserunt reprehenderit anim nulla laborum dolor."
+        }
+      }
+    ]
+  },
+  "web_banner": {
+    "__TYPE__": "ImageContent",
+    "origin": {
+      "id": "main",
+      "url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e",
+      "width": 6000,
+      "height": 4000
+    },
+    "url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e",
+    "width": 6000,
+    "height": 4000,
+    "edit": {
+      "zoom": 1,
+      "crop": {
+        "x": 0,
+        "y": 0
+      },
+      "background": "transparent"
+    },
+    "thumbnails": {}
+  }
+}
